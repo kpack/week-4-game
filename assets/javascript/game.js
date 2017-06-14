@@ -1,3 +1,6 @@
+
+
+
 // var targetscore = "0"
 var targetscore = math.floor((Math.random() * 120) + 19);
 var redcrystal = math.floor((Math.random() * 12) + 1);
