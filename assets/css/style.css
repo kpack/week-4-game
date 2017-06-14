@@ -1,5 +1,43 @@
 
-#instructions
 
 
 
+body{
+	background-image: url("../images/background.jpg")
+}
+
+#header{
+	background-color: black;
+	color: white;
+	margin: 10px;
+	width: 25%
+}
+
+#instructions{
+	background-color: yellow;
+	color: green;
+	width: 50%;
+}
+
+#score {
+	font-size: 25px;
+	color: purple;
+	background-color: green;
+}
+
+#WLblock {
+	background-color: teal;
+}
+
+#cystals{
+	float: left;
+}
+#yourscore1{
+	background-color: black;
+	color: white;
+}
+
+#yourscore2{
+	background-color: black;
+	color: white;	
+}
