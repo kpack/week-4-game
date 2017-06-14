@@ -3,10 +3,10 @@
 
 // var targetscore = "0"
 var targetscore = math.floor((Math.random() * 120) + 19);
-var redcrystal = math.floor((Math.random() * 12) + 1);
-var bluecrystal = math.floor((Math.random() * 12) + 1);
-var greencrystal = math.floor((Math.random() * 12) + 1);
-var yellowcrystal = math.floor((Math.random() * 12) + 1);
+var red = math.floor((Math.random() * 12) + 1);
+var blue = math.floor((Math.random() * 12) + 1);
+var green = math.floor((Math.random() * 12) + 1);
+var yellow = math.floor((Math.random() * 12) + 1);
 var yourscore = 0
 var wincount = 0
 var losscount = 0
@@ -14,8 +14,8 @@ var losscount = 0
 // reset yourscore
 // random target score
 
-
-$("bluecrystal").click();((
+$('#targetscore').text(targetscore)
+$("blue").click();((
 
 
 random crystal for each color between 1-12
