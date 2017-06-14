@@ -6,38 +6,44 @@ body{
 	background-image: url("../images/background.jpg")
 }
 
-#header{
+.header{
 	background-color: black;
 	color: white;
 	margin: 10px;
 	width: 25%
 }
 
-#instructions{
+.instructions{
 	background-color: yellow;
 	color: green;
 	width: 50%;
 }
 
-#score {
+.score {
 	font-size: 25px;
 	color: purple;
 	background-color: green;
 }
 
-#WLblock {
+.WLblock {
 	background-color: teal;
 }
 
-#cystals{
-	float: left;
+.crystals{
+
 }
-#yourscore1{
+
+.crystalImage {
+	width: 60px;
+	height: 60px;
+}
+
+.yourscore1{
 	background-color: black;
 	color: white;
 }
 
-#yourscore2{
+.yourscore2{
 	background-color: black;
 	color: white;	
 }
