@@ -20,14 +20,14 @@ $("#targetScore").text(targetScore)
 function winner(){
 	alert("You won!");
 	winCount++; 
-  	$('#wins').text(winCount);
+  	$("#wins").text("Wins: " + winCount);
   	reset();
 }
 
 function loser(){
 alert ("You lose!");
   lossCount++;
-  $('#losses').text(lossCount);
+  $("#losses").text("Losses: " + lossCount);
   reset()
 }
 
@@ -88,12 +88,12 @@ alert ("You lose!");
 //reset game
 
 function reset(){
-	targetScore = math.floor((Math.random() * 120) + 19);
-	$('#targetscore').text(targetScore);
-	red = math.floor((Math.random() * 12) + 1);
-	blue = math.floor((Math.random() * 12) + 1);
-	green = math.floor((Math.random() * 12) + 1);
-	yellow = math.floor((Math.random() * 12) + 1);
+	targetScore = Math.floor((Math.random() * 120) + 19);
+	$("#targetScore").text(targetScore);
+	red = Math.floor((Math.random() * 12) + 1);
+	blue = Math.floor((Math.random() * 12) + 1);
+	green = Math.floor((Math.random() * 12) + 1);
+	yellow = Math.floor((Math.random() * 12) + 1);
 	yourScore = 0;
 }
 
