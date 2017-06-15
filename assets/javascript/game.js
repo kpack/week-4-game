@@ -13,7 +13,7 @@ var lossCount = 0;
 
 
 // insert target
-$('#targetscore').text(targetScore)
+$("#targetScore").text(targetScore)
 
 
 // set up winner and loser functions
@@ -31,8 +31,6 @@ alert ("You lose!");
   reset()
 }
 
-
-
 // crystal click functions
 
  $('#blue').on ('click', function(){
@@ -42,7 +40,7 @@ alert ("You lose!");
         if (yourScore == targetScore){
           winner();
         }
-        else if ( userTotal > Random){
+        else if ( yourScore > targetScore){
           loser();
         } 
   })  
@@ -55,7 +53,7 @@ alert ("You lose!");
         if (yourScore == targetScore){
           winner();
         }
-        else if ( userTotal > Random){
+        else if ( yourScore > targetScore){
           loser();
         } 
    })  
@@ -67,7 +65,7 @@ alert ("You lose!");
         if (yourScore == targetScore){
           winner();
         }
-        else if ( userTotal > Random){
+        else if ( yourScore > targetScore){
           loser();
         } 
   })  
@@ -80,7 +78,7 @@ alert ("You lose!");
         if (yourScore == targetScore){
           winner();
         }
-        else if ( userTotal > Random){
+        else if ( yourScore > targetScore){
           loser();
         } 
   })  
